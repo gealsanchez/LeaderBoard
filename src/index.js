@@ -1,21 +1,19 @@
-import _ from 'lodash';
 import './style.css';
-import Icon from './images/android2.svg';
 
-function component() {
-  const element = document.createElement('div');
+const table = [
+  { name: 'Rose', score: 85 },
+  { name: 'Maynard', score: 86 },
+  { name: 'James', score: 87 },
+  { name: 'Keenan', score: 88 },
+  { name: 'Tommy', score: 89 },
+  { name: 'Iomi', score: 90 },
+  { name: 'Jerry', score: 91 },
+];
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+const showScores = document.querySelector('.scores');
 
-  // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = Icon;
-
-  element.appendChild(myIcon);
-
-  return element;
-}
-
-document.body.appendChild(component());
+table.forEach((score) => {
+  const divScore = document.createElement('div');
+  divScore.textContent = `${score.name}: ${score.score}`;
+  showScores.appendChild(divScore);
+});

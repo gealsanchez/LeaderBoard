@@ -3,8 +3,37 @@
     src: url('./font/Roboto.ttf') format('truetype');
   }
 
-.hello {
-    color: red;
-    background: url('./images/android2.svg');
-    font-family: 'MyFont', sans-serif;
+  .scores div:nth-child(odd) {
+    background: rgb(215, 214, 214);
   }
+
+  .scores div:nth-child(even) {
+    background: #fff;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  .score-head{
+    display: flex;
+    width: 120%;
+  }
+
+  .score-head button{
+    height: 5%;
+    align-self: center;
+    margin-left: 10%;
+  }
+
+  .board{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .add-score{
+    display: flex;
+    flex-direction: column;
+  }
+  
