@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./font/Roboto.ttf') format('truetype');
+  }
+
+.hello {
+    color: red;
+    background: url('./images/android2.svg');
+    font-family: 'MyFont', sans-serif;
+  }
