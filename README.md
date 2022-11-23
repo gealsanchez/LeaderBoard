@@ -1,5 +1,6 @@
-# To Do List
-2 Module Week 2
+# Leaderboard Project 
+
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
 ## Built With
 
@@ -23,15 +24,23 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup & Install
 
-Download sources from [Githubhttps://github.com/gealsanchez/AwesomeBooks/awesomeBooks.zip) or throught the command: 
+Download sources from [https://github.com/gealsanchez/LeaderBoard/archive/refs/heads/dev.zip) or throught the command: 
 ```
-git@github.com:gealsanchez/todolist.git
+git clone https://github.com/gealsanchez/AwesomeBooks.git
 
-```https://github.com/gealsanchez/todolist/archive/refs/heads/main.zip
+```
+
+[https://github.com/gealsanchez/LeaderBoard.git]
 
 ### Usage
 
 After downloading source on your local machine, you can simply edit the HTML and CSS files from the folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
+
+### Deployment
+Deploy on any web hosting server cloud/in site and enjoy 
+
+https://gealsanchez.github.io/AwesomeBooks/
+
 
 ## Authors
 
@@ -40,9 +49,6 @@ After downloading source on your local machine, you can simply edit the HTML and
 - GitHub: [@githubhandle](https://github.com/gealsanchez)
 - Twitter: [@twitterhandle](https://twitter.com/gealsanchez)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gerson-sanchez-88309b57/)
-
-
-## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
