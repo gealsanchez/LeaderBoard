@@ -39,7 +39,7 @@ After downloading source on your local machine, you can simply edit the HTML and
 ### Deployment
 Deploy on any web hosting server cloud/in site and enjoy 
 
-https://gealsanchez.github.io/AwesomeBooks/
+https://gealsanchez.github.io/LeaderBoard/dist/
 
 
 ## Authors
