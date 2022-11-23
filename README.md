@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 Download sources from [https://github.com/gealsanchez/LeaderBoard/archive/refs/heads/dev.zip) or throught the command: 
 ```
-git clone https://github.com/gealsanchez/AwesomeBooks.git
+git clone [https://github.com/gealsanchez/LeaderBoard.git]
 
 ```
 
