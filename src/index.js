@@ -15,7 +15,7 @@ const showScore = async () => {
 
 showScore();
 
-form.addEventListener('submit', async (event) => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
   const userName = document.getElementById('name');
   const userScore = document.getElementById('score');
