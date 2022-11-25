@@ -67,6 +67,10 @@ header h1 {
   background-image: linear-gradient(rgba(84, 196, 224, 0.473), rgba(8, 116, 74, 0.9));
 }
 
+input {
+  border-radius: 5%;
+}
+
 form input {
   width: 65%;
 }
@@ -81,8 +85,4 @@ form input {
 
 #submit {
   border-radius: 10%;
-}
-
-input {
-  border-radius: 5%;
 }
